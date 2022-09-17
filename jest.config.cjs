@@ -8,6 +8,7 @@ module.exports = {
     '!src/vite-env.d.ts'
   ],
   modulePaths: ['<rootDir>/src/'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   transform: {
     '^.+\\.tsx?$': 'babel-jest'
   }
