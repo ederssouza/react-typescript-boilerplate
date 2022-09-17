@@ -29,6 +29,7 @@ Open [http://localhost:5173](http://localhost:5173) with your browser to see the
 - `preview`: initializes a local static web server that serves files from the `dist` directory (this is an easy way to verify that the production build is working correctly);
 - `lint`: runs linter on all files that are in the configuration rule;
 - `lint:fix`: runs linter and fixes all files that are in the configuration rule;
+- `typecheck`: checks if the file types are correct;
 - `test`: runs unit and integration tests;
 - `test:watch`: runs unit and integration tests in listening mode;
 - `coverage-test`: runs unit and integration tests and generates a code coverage report;

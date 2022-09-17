@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "lint:fix": "npm run lint -- --fix",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "coverage-test": "jest --coverage --maxWorkers=50%",
