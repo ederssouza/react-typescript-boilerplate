@@ -1,4 +1,4 @@
-import { renderHook } from '@testing-library/react-hooks'
+import { renderHook } from '@testing-library/react'
 import useToggle from './useToggle'
 
 describe('useToggle | hook | integration test', () => {
