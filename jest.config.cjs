@@ -11,5 +11,8 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   transform: {
     '^.+\\.tsx?$': 'babel-jest'
+  },
+  moduleNameMapper: {
+    '@/(.*)': '<rootDir>/src/$1'
   }
 }
