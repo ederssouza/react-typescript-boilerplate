@@ -5,6 +5,6 @@ describe('HelloWorld | component | unit test', () => {
   it('should render with success', () => {
     render(<HelloWorld>React JavaScript Boilerplate</HelloWorld>)
 
-    expect(screen.getByText('React JavaScript Boilerplate')).toBeInTheDocument()
+    expect(screen.getByText('React JavaScript Boilerplate')).not.toBeInTheDocument()
   })
 })
