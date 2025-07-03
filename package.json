@@ -48,7 +48,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "husky": "^9.1.7",
     "jest": "^30.0.4",
-    "jest-environment-jsdom": "^29.7.0",
+    "jest-environment-jsdom": "^30.0.4",
     "lint-staged": "^16.1.2",
     "plop": "^4.0.1",
     "prettier": "3.6.2",
