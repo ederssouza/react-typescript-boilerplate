@@ -52,7 +52,7 @@
     "lint-staged": "^16.4.0",
     "plop": "^4.0.5",
     "prettier": "3.9.4",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "vite": "^7.3.1"
   }
 }
